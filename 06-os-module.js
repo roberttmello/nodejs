@@ -8,6 +8,7 @@ const user = os.userInfo();
 const uptime = os.uptime();
 // console.log(uptime);
 
+// info about os system
 const currentOS = {
   name: os.type(),
   release: os.release(),
